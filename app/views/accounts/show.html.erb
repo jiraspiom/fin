@@ -1,0 +1,44 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @account.name %>
+</p>
+
+<p>
+  <strong>Tipo:</strong>
+  <%= @account.tipo %>
+</p>
+
+<p>
+  <strong>Conta status:</strong>
+  <%= @account.conta_status %>
+</p>
+
+<p>
+  <strong>Saldoini:</strong>
+  <%= @account.saldoini %>
+</p>
+
+<p>
+  <strong>Moeda:</strong>
+  <%= @account.moeda %>
+</p>
+
+<p>
+  <strong>Conta favorita:</strong>
+  <%= @account.conta_favorita %>
+</p>
+
+<p>
+  <strong>Informacoes:</strong>
+  <%= @account.informacoes %>
+</p>
+
+<p>
+  <strong>Nota:</strong>
+  <%= @account.nota %>
+</p>
+
+<%= link_to 'Edit', edit_account_path(@account) %> |
+<%= link_to 'Back', accounts_path %>
